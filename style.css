@@ -10,8 +10,8 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* position: fixed;
-    z-index: 100; */
+    position: fixed;
+    z-index: 100;
     background-color: aliceblue;
 }
 
@@ -84,56 +84,72 @@
     display: flex;
     flex-direction: column;
 }
-.amenities{
-    border: 2px red solid;
-    height: 40vh;
-    width: 60vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(198, 150, 243);
-    margin: auto;
+.amenities{ 
+    width: 100%;
+    background-color: #728495;
     border-radius: 10px;
 }
-.amenities h1{
-    font-family:"Dancing Script" , cursive;
-    font-size: 6rem;
-    border-bottom:1px rgb(203, 203, 229) solid ;
-}
-.amenities li{
-    font-family: "Poppins ", sans-serif;
-    font-weight: bold;
-    color: rgb(59, 55, 55);
-    
-}
-.homes_content{
+
+.amenities_title{
     display: flex;
     justify-content: center;
+    font-family: "Dancing Script", cursive;
+    font-size: 4rem;
+    font-weight: bold;
+    height: 10vh;
+    margin-bottom: 1rem;
+}
+.amenities_details{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+.amenities_content{
+    display: flex;
     align-items: center;
-    margin-top: 2rem;
-}
-.homes_content h1{
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 5rem;
-    text-align: center;
-}
-.main_properties{
-    display: flex;
-}
-.properties{
-    display: flex;
     flex-direction: column;
-    height: 40vh;
-    width: 25vw;
-    border: 2px red solid;
-}
-.properties img{
-    height: 40%;
-}
+    width: 20rem;
+    height: 30vh;
+    background-color: azure;
+    border-radius: 2rem;
+    box-shadow: 10px 10px lightblue;
 
-.properties h1{
+}
+.amenities_content h2{
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+}
+.amenities_content img{
+    border: 2px rgb(14, 6, 20) solid;
+    margin-top: 1rem;
+    width: 6rem;
+    padding: .5rem;
+    border-radius: 50%;
+}
+.amenities_content p{
+ text-align: center;
+ margin: 1rem;
+ font-size: 1.5rem;
+}
+.homes{
     display: flex;
-    font-size: large;
-
+    margin-top: 3rem;
+    border: 2px red solid;
+    width: 100%;
+}
+.homes_title{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.homes_title h1{
+    font-family: "Poppins" , sans-serif;
+    font-size: 2rem;
+}
+.homes_title p {
+    font-family: "Dancing Script ", cursive;
+    line-height: 1rem;
 }
