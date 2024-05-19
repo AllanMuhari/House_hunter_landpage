@@ -13,23 +13,25 @@
         <h1 class="nav_text">Urban Haven Apartments</h1>
        </div>
        <div class="nav_links">
-         <a href="">Home</a>
-         <a href="">About</a>
-         <a href="">Rentals</a>
-         <a href="">Feedback</a>
-         <a href="">Contacts</a>
+         <a href="#home">Home</a>
+         <a href="#about">About</a>
+         <a href="#amenities">Amenities</a>
+         <a href="#rentals">Rentals</a>
+         <a href="#contacts">Contacts</a>
        </div>
     </section>
-    <section class="hero">
+    <section class="hero" id="home"> 
        <div class="hero_content">
          <h1>Your dream house is here</h1>
-          <div class="search">
-            <input type="text" placeholder="Search">
-         <img src="./assets/search.png">
-          </div>
+         <div class="input-container">
+          <input type="text" name="text" class="input" placeholder="search...">
+          <span class="icon"> 
+            <svg width="19px" height="19px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path opacity="1" d="M14 5H20" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path opacity="1" d="M14 8H17" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M21 11.5C21 16.75 16.75 21 11.5 21C6.25 21 2 16.75 2 11.5C2 6.25 6.25 2 11.5 2" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path> <path opacity="1" d="M22 22L20 20" stroke="#000" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+          </span>
+        </div>
        </div>
     </section>
-    <section class="amenities">
+    <section class="amenities " id="amenities">
       <div class="amenities_title">
         <h1>Amenities</h1>
       </div>
@@ -86,11 +88,11 @@
      </div>       
     </section>
 
-    <section class="homes">
+    <section class="homes" id="rentals">
 
       <div class="homes_title">
         <h1>Featured Properties</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, explicabo?</p>
+        <p>Welcome! Discover your ideal home with flexible leases, 24/7 support, modern amenities, and transparent pricing.</p>
       </div>
         <div class="rooms">
           <div class="rooms_details">
@@ -122,63 +124,157 @@
             <div class="rooms_content">
               <h2>Studio Apartments</h2>
               <img src="./assets/studios.jpg">
-              <p> Stylish and functional apartments featuring an open layout with a combined living, sleeping, and dining area, perfect for individuals or couples seeking a modern living experience <b>@ Kshs.7000 per month.</b></p>
+              <p> Stylish and functional apartments featuring an open layout with a combined living, sleeping, and dining area, perfect for individuals or couples seeking a modern living experience <b>@ Kshs.7,000 per month.</b></p>
           </div>
           <div class="rooms_content">
             <h2>Studio Apartments</h2>
             <img src="./assets/studios1.jpg">
-            <p> Stylish and functional apartments featuring an open layout with a combined living, sleeping, and dining area, perfect for individuals or couples seeking a modern living experience<b> @ Kshs.7000 per month.</b></p>
+            <p> Stylish and functional apartments featuring an open layout with a combined living, sleeping, and dining area, perfect for individuals or couples seeking a modern living experience<b> @ Kshs.7,000 per month.</b></p>
            </div>
           </div>
           <div class="rooms_details">
             <div class="rooms_content">
               <h2>1 Bedroom Apartments</h2>
               <img src="./assets/1bed.jpg">
-              <p>Spacious apartments with a separate bedroom, ideal for individuals or couples looking for additional privacy and space<b> @ Kshs.8500 per month</b>.</p>
+              <p>Spacious apartments with a separate bedroom, ideal for individuals or couples looking for additional privacy and space<b> @ Kshs.8,500 per month</b>.</p>
           </div>
           <div class="rooms_content">
             <h2>1 Bedrooms Apartments</h2>
             <img src="./assets/1bed1.jpg">
-            <p> Spacious apartments with a separate bedroom, ideal for individuals or couples looking for additional privacy and space <b> @ Kshs.8500 per month</b></p>
+            <p> Spacious apartments with a separate bedroom, ideal for individuals or couples looking for additional privacy and space <b> @ Kshs.8,500 per month</b></p>
            </div>
           </div>
           <div class="rooms_details">
             <div class="rooms_content">
               <h2>2 Bedroom Apartments</h2>
               <img src="./assets/2bed.jpg">
-              <p>Larger apartments with two separate bedrooms, suitable for small families or roommates <b>@ Kshs.10000 per month</b>.</p>
+              <p>Larger apartments with two separate bedrooms, suitable for small families or roommates <b>@ Kshs.10,000 per month</b>.</p>
           </div>
           <div class="rooms_content">
             <h2>2 Bedroom Apartments</h2>
             <img src="./assets/2bed1.jpg">
-            <p>Larger apartments with two separate bedrooms, suitable for small families or roommates <b>@ Kshs.10000 per month</b>.<p>
+            <p>Larger apartments with two separate bedrooms, suitable for small families or roommates <b>@ Kshs.10,000 per month</b>.<p>
            </div>
           </div>
           <div class="rooms_details">
             <div class="rooms_content">
               <h2>1 Bedroom Self-Contained</h2>
               <img src="./assets/1bedself.jpg">
-              <p>Apartments with a separate bedroom and private amenities, including a kitchen and bathroom, offering utmost privacy and convenience <b>@ Kshs. 15000 per month.</b></p>
+              <p>Apartments with a separate bedroom and private amenities, including a kitchen and bathroom, offering utmost privacy and convenience <b>@ Kshs. 15,000 per month.</b></p>
           </div>
           <div class="rooms_content">
             <h2>1 Bedroom Self-Contained</h2>
             <img src="./assets/1bedself1.jpg">
-            <p>Apartments with a separate bedroom and private amenities, including a kitchen and bathroom, offering utmost privacy and convenience <b> @ Kshs. 15000 per month.</b></p>
+            <p>Apartments with a separate bedroom and private amenities, including a kitchen and bathroom, offering utmost privacy and convenience <b> @ Kshs. 15,000 per month.</b></p>
            </div>
           </div>
           <div class="rooms_details">
             <div class="rooms_content">
               <h2>2 Bedroom Self-Contained</h2>
               <img src="./assets/2bedself.jpg">
-              <p>Apartments with two bedrooms and private amenities, providing ample space and comfort for families or larger households <b>@ Kshs.20000 per month.</b><p>
+              <p>Apartments with two bedrooms and private amenities, providing ample space and comfort for families or larger households <b>@ Kshs.20,000 per month.</b><p>
           </div>
           <div class="rooms_content">
             <h2>2 Bedroom Self-Contained</h2>
             <img src="./assets/2bedself1.jpg">
-            <p>Apartments with two bedrooms and private amenities, providing ample space and comfort for families or larger households <b>@ Kshs.20000 per month.</b></p>
+            <p>Apartments with two bedrooms and private amenities, providing ample space and comfort for families or larger households <b>@ Kshs.20,000 per month.</b></p>
            </div>
           </div>
         </div>
     </section>
+    <section class="about" id="about">
+       <div class="about_heading">
+        <h1>About us </h1>
+       </div>
+           <div class="about_content">
+            <p>Welcome to Your Perfect Home! Discover exceptional rental properties tailored to your needs. Our user-friendly platform connects you with a diverse range of high-quality apartments and houses in prime locations. Enjoy transparent pricing, detailed property descriptions, and high-resolution photos to make informed decisions. </p>
+            <div class="about_image">
+              <img src="./assets/person.jpg" alt="">
+             </div>
+           </div>
+    </section>
+    <section class="contacts" id="contacts">
+          <div class="container">
+            <div class="content">
+              <div class="left-side">
+                <div class="address details">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div class="topic">Address</div>
+                  <div class="text-one">Nairobi County , Kenya</div>
+                </div>
+                <div class="phone details">
+                  <i class="fas fa-phone-alt"></i>
+                  <div class="topic">Phone</div>
+                  <div class="text-one">+254718764327</div>
+                </div>
+                <div class="email details">
+                  <i class="fas fa-envelope"></i>
+                  <div class="topic">Email</div>
+                  <div class="text-one"> urhaven@apartments.com</div>
+                </div>
+                
+              </div>
+              <div class="right-side">
+                <div class="topic-text">Send us a message</div>
+                <p>If you wish to contact us s you can send me message from here. It's my pleasure to help you.</p>
+              <form action="#">
+                <div class="input-box">
+                  <input type="text" required placeholder="Enter your First name">
+                </div>
+                <div class="input-box">
+                  <input type="text" required placeholder="Enter your  Last email">
+                </div>
+                <div class="input-box">
+                  <input type="text" required placeholder="Enter your email">
+                </div>
+                <div class="input-box message-box">
+                  
+                </div>
+                <div class="button">
+                  <input type="button" value="Send Now" >
+                </div>
+              </form>
+            </div>
+            </div>
+          </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-left col-md-4 col-sm-6">
+        <p class="footer_about">
+          <span> About the company</span>Discover exceptional rental properties tailored to your needs. Our user-friendly platform connects you with a diverse range of high-quality apartments and houses in prime locations. Enjoy transparent pricing, detailed property descriptions, and high-resolution photos to make informed decisions. 
+        </p>
+        <div class="icons">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-google-plus"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-center col-md-4 col-sm-6">
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span> 10-200 , 101</span> Nairobi, Kenya</p>
+        </div>
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+254718764327</p>
+        </div>
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="#">  urhaven@apartments.com</a></p>
+        </div>
+      </div>
+      <div class="footer-right col-md-4 col-sm-6">
+        <p class="menu">
+          <a href="#home">Home</a> |
+          <a href="#about">About</a> |
+          <a href="#amenities">Amenities</a> |
+          <a href="#rentals">Rentals</a> |
+          <a href="#contacts">Contacts</a> |
+        </p>
+        <p class="name"> Allan Muhari &copy; 2024</p>
+      </div>
+    </footer>
   </body>
 </html>
