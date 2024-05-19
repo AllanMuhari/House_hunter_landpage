@@ -528,7 +528,6 @@ body{
         justify-content: flex-start;
         margin: 0;
         width: 100;
-        border: 2px red solid;
     }
     .nav_text{
         display: flex;
@@ -541,7 +540,6 @@ body{
     }
     .nav_links{
         gap: 0.5rem;
-        border: 2px red solid;
         margin: 0;
     }
     .hero{
